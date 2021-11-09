@@ -1,0 +1,92 @@
+
+{
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+
+  "nodes" : [
+    {
+      "mesh" : 0
+    }
+  ],
+
+  "meshes" : [
+    {
+      "primitives" : [ {
+        "attributes" : {
+          "POSITION" : 1,
+          "NORMAL" : 2,
+          "TEXCOORD_0" : 3,
+          "COLOR_0" : 4
+        },
+        "indices" : 0
+      } ]
+    }
+  ],
+
+  "buffers" : [
+    {
+      "uri" : "bunny.bin",
+      "byteLength" : 2505440
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 1672040,
+      "byteLength" : 833400,
+      "target" : 34963
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 4,
+      "byteLength" : 1672032,
+      "byteStride" : 48,
+      "target" : 34962
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "byteOffset" : 0,
+      "componentType" : 5125,
+      "count" : 208350,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "byteOffset" : 0,
+      "componentType" : 5126,
+      "count" : 34834,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 1,
+      "byteOffset" : 12,
+      "componentType" : 5126,
+      "count" : 34834,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 1,
+      "byteOffset" : 24,
+      "componentType" : 5126,
+      "count" : 34834,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 1,
+      "byteOffset" : 32,
+      "componentType" : 5126,
+      "count" : 34834,
+      "type" : "VEC4"
+    }
+  ],
+
+  "asset" : {
+    "version" : "2.0"
+  }
+}

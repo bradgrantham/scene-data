@@ -1,0 +1,92 @@
+
+{
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+
+  "nodes" : [
+    {
+      "mesh" : 0
+    }
+  ],
+
+  "meshes" : [
+    {
+      "primitives" : [ {
+        "attributes" : {
+          "POSITION" : 1,
+          "NORMAL" : 2,
+          "TEXCOORD_0" : 3,
+          "COLOR_0" : 4
+        },
+        "indices" : 0
+      } ]
+    }
+  ],
+
+  "buffers" : [
+    {
+      "uri" : "armadillo.bin",
+      "byteLength" : 12454076
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 8302760,
+      "byteLength" : 4151316,
+      "target" : 34963
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 4,
+      "byteLength" : 8302752,
+      "byteStride" : 48,
+      "target" : 34962
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "byteOffset" : 0,
+      "componentType" : 5125,
+      "count" : 1037829,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "byteOffset" : 0,
+      "componentType" : 5126,
+      "count" : 172974,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 1,
+      "byteOffset" : 12,
+      "componentType" : 5126,
+      "count" : 172974,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 1,
+      "byteOffset" : 24,
+      "componentType" : 5126,
+      "count" : 172974,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 1,
+      "byteOffset" : 32,
+      "componentType" : 5126,
+      "count" : 172974,
+      "type" : "VEC4"
+    }
+  ],
+
+  "asset" : {
+    "version" : "2.0"
+  }
+}
